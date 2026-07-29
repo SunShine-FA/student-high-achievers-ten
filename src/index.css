@@ -1775,7 +1775,11 @@ section {
   /* Reorder premium cards in mobile so they appear 1st, 2nd, 3rd */
   .premium-card[data-rank="1"] { order: 1; }
   .premium-card[data-rank="2"] { order: 2; }
-  .premium-card[data-rank="3"] { order: 3; }
+  .premium-card[data-rank="3"] { order: 4; }
+  
+  /* Specific mobile ordering for Top Girls (Ayesha before Aania) */
+  .premium-card[data-id="g2b"] { order: 2; }
+  .premium-card[data-id="g2"] { order: 3; }
 
   .premium-modal-content { padding: 20px 24px 36px; }
   .regular-modal { padding: 28px 20px 36px; }
