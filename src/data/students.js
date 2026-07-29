@@ -18,7 +18,7 @@ export const STUDENTS = [
     id: 'g2',
     name: 'ANEESHA NOUMAN',
     gender: 'female',
-    photo: '/images/avatar.jpg',
+    photo: '/images/Aneesha.jpeg',
     marks: '978 / 1100',
     percentage: '88.91%',
     rank: 2,
@@ -96,7 +96,7 @@ export const STUDENTS = [
   },
   {
     id: 'b2',
-    name: 'TASBEEL',
+    name: 'MUHAMMAD TASBEEL',
     gender: 'male',
     photo: '/images/Tasbeel.png',
     marks: '887 / 1100',
