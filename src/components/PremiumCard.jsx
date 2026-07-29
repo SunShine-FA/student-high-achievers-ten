@@ -69,6 +69,7 @@ export default function PremiumCard({ student, delay = 0, onCardClick }) {
       ref={cardRef}
       className="premium-card tilt-card"
       style={{ animationDelay: `${delay}ms` }}
+      data-rank={student.rank}
       onClick={() => onCardClick(student)}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}

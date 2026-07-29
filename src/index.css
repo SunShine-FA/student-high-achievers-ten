@@ -1771,6 +1771,12 @@ section {
   section { padding: 70px 20px; }
   .hero-quote { font-size: 0.88rem; }
   .premium-card { width: calc(50% - 14px); min-width: 200px; }
+  
+  /* Reorder premium cards in mobile so they appear 1st, 2nd, 3rd */
+  .premium-card[data-rank="1"] { order: 1; }
+  .premium-card[data-rank="2"] { order: 2; }
+  .premium-card[data-rank="3"] { order: 3; }
+
   .premium-modal-content { padding: 20px 24px 36px; }
   .regular-modal { padding: 28px 20px 36px; }
   .thankyou-card { padding: 36px 24px; }
