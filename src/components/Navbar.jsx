@@ -22,8 +22,8 @@ export default function Navbar() {
 
   const links = [
     { label: 'Home',         href: '#hero'         },
-    { label: 'Top Boys',     href: '#top-boys'     },
     { label: 'Top Girls',    href: '#top-girls'    },
+    { label: 'Top Boys',     href: '#top-boys'     },
     { label: 'All Achievers',href: '#all-students' },
     { label: 'Statistics',   href: '#stats'        },
   ];

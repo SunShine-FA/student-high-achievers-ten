@@ -102,20 +102,20 @@ export default function App() {
         <Hero />
 
         <PremiumSection
-          sectionId="top-boys"
-          title="Top 3 Boys"
-          subtitle="Our Most Distinguished Male Achievers"
-          students={topBoys}
-          pinkDecor={false}
-          onCardClick={openPremiumModal}
-        />
-
-        <PremiumSection
           sectionId="top-girls"
           title="Top Girls"
           subtitle="Our Most Distinguished Female Achievers"
           students={topGirls}
           pinkDecor={true}
+          onCardClick={openPremiumModal}
+        />
+
+        <PremiumSection
+          sectionId="top-boys"
+          title="Top 3 Boys"
+          subtitle="Our Most Distinguished Male Achievers"
+          students={topBoys}
+          pinkDecor={false}
           onCardClick={openPremiumModal}
         />
 
