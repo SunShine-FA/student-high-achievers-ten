@@ -18,7 +18,7 @@ export const STUDENTS = [
     id: 'g2',
     name: 'ANEESHA NOUMAN',
     gender: 'female',
-    photo: '/images/Aneesha.jpeg',
+    photo: '/images/Aneesha.png',
     marks: '978 / 1100',
     percentage: '88.91%',
     rank: 2,
